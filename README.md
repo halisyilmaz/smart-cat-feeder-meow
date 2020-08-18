@@ -10,4 +10,4 @@ Uses TF Object Detection API
 Uses 2 NNs. First one is a pretrained SSDLite object detection model to detect cats and dogs in the frame. 
 Second one is continuously updated custom trained cat identification network. 
 Training for 10 cat classes takes app. 10 minutes with an NVIDIA GTX1080 6GB.
-Uses TF2.1/Keras
+Uses TF2.1/Keras and MobileNetV2 as architecture
