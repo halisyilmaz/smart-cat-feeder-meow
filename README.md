@@ -4,6 +4,7 @@ A smart cat feeder that can identify new cats and plan a special feeding schedul
 ## V2 - Custom Trained Object Detecion Model
 Uses only 1 NN. A pretrained SSDLite model is trained with transfer learning to include new cat classes. 
 Training for 10 cat classes takes app. 2 hours with an NVIDIA GTX1080 6GB.
+Uses TF Object Detection API
 
 ## V3 - Custom Trained Image Classifier
 Uses 2 NNs. First one is a pretrained SSDLite object detection model to detect cats and dogs in the frame. 
